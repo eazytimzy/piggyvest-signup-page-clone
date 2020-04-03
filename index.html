@@ -1,64 +1,72 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link href="https://fonts.googleapis.com/css?family=karla&display=swap">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=karla&display=swap">
   <title>Dashboard - Piggyvest</title>
   <link rel="stylesheet" href="piggyvest.css">
-    </head>
-    <body>
-        <div class="container">
+  <link rel="shortcut icon" href="img/favicon.webp" type="image/x-icon" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="bgDesign">
+        <img src="img/blue-img.png" alt="" class="blueImg hide" />
+        <img src="img/green-img.png/" alt="" class="greenImg show" />
+        <img src="img/pink-img.png" alt="" class="pinkImg hide" />
+        <img src="img/purple-img.png" alt="" class="purpleImg hide" />
+      </div>
+    <div class="container">
             
-            <img class="logo" src="./logo.svg" alt="logo">
-            
-      
-        <section class="wrap">
-            <header>
-                <div class="createaccount">
-            <p><h1>Create a Secure Account</h1></p></div>
-            <div class="createaccounttext">
-            <p>welcome to the future of saving & Investments</p></div>
-        </header>
-            <div class= "forms">
-                <form action="piggyactionpage.php">
-
-                    <label for="fname"><b>Full Name</b></label><br>
-                    <input type="text" id="fname" placeholder="Full Name"><br>
-                    <label for="email"><b> Email Address</b></label><br>
-                    <input type="email"id="email" placeholder="Email Address"><br>
-                    <label for="no"><b>Phone Number</b></label><br>
-                    <input type="tel"id="no" placeholder="Phone Number"><br>
-                    <label for="pward"><b>Password</b></label><br>
-                    <input type="password"id="pward" placeholder="Password"><label><br>
-                    <label for="ref"><b>Refferrer Phone or Promo Code (optional)</b></label><br>
-                    <input type="text"id="ref" placeholder="Refferer Phone of Code"><label><br>
-                        <label for="how"><b>How did you hear about us (optional)</b></label><br>
-                       <select name="how" id="how">
-                            <option value="click to select">Click To Select</option>
-                            <option value="Facebook"> Facebook</option>
-                            <option value="Twitter"> Twitter</option>
-                            <option value="Instagram"> Instagram</option>
-                            <option value="Friend/Family/Coworker Referral"> Friend/Family/Coworker Referral</option>
-                            <option value="Google Search">Google Search</option>
-                            <option value="Google Playsore">Google Playsore</option>
-                            <option value="Online Blog">Online Blog</option>
-                            <option value="Local Newspapper">Local Newspapper</option>
-                            <option value="At an event">At an event</option>
-                            <option value="Other">Other</option><br>
-                        </select>
-                        
-                       <br>
-                       <button type="Submit"><b>CREATE ACCOUNT</b></button><br>
-            
-            </form>
-        </section>
+        <img class="logo" src="img/logo.svg" alt="logo">
         
-   <footer>
-     <a class="link" style="color: white;" href="#">Already have an account ? Log In </a>
-    </footer>
-               
-    </form>
-</div>
+  
+    <section class="wrap">
+        <header>
+            <div class="createaccount">
+        <h1>Create a Secure Account</h1>
+    </div>
+        <div class="createaccounttext">
+        <p>Welcome to the future of Savings & Investments</p>
+    </div>
+    </header>
+        <div class= "forms">
+            <form action="piggyactionpage.php">
 
-
+                <label for="fname">Full Name</label><br>
+                <input type="text" id="fname" placeholder="Full Name"><br>
+                <label for="email"> Email Address</label><br>
+                <input type="email"id="email" placeholder="Email Address"><br>
+                <label for="no">Phone Number</label><br>
+                <input type="tel"id="no" placeholder="Phone Number"><br>
+                <label for="pward">Password</label><br>
+                <input type="password"id="pward" placeholder="Password"><label><br>
+                <label for="ref">Refferrer Phone or Promo Code (optional)</label><br>
+                <input type="text"id="ref" placeholder="Refferer Phone of Code"><label><br>
+                    <label for="how">How did you hear about us (optional)</label><br>
+                   <select name="how" id="how">
+                        <option value="click to select">Click To Select</option>
+                        <option value="Facebook"> Facebook</option>
+                        <option value="Twitter"> Twitter</option>
+                        <option value="Instagram"> Instagram</option>
+                        <option value="Friend/Family/Coworker Referral"> Friend/Family/Coworker Referral</option>
+                        <option value="Google Search">Google Search</option>
+                        <option value="Google Playsore">Google Playsore</option>
+                        <option value="Online Blog">Online Blog</option>
+                        <option value="Local Newspapper">Local Newspapper</option>
+                        <option value="At an event">At an event</option>
+                        <option value="Other">Other</option><br>
+                    </select>
+                    
+                   <br>
+                   <button type="Submit">CREATE ACCOUNT</button><br>
+        
+        </form>
+    </div>
+    </section>
+    </div>
+<footer>
+ <a class="link container" href="#">Already have an account ? Log In </a>
+</footer>
 </body>
 </html>

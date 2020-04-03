@@ -1,141 +1,194 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-
+@font-face {
+  font-family: "U8";
+  src: url("fonts/U8-Bold.ttf");
 }
 
-body{
-    background-image: url("./backgroung.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-size: 100% 100%;
-    background position: center;
-    min-height: 100vh;
-    width: 100%;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
+body {
+  background-image: url("img/backgroung.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100% 100%;
+  background-position: center;
+  min-height: 100vh;
+  width: 100%;
+  overflow: auto;
+}
+
+.bgDesign {
+  position: fixed;
+}
+
+.blueImg {
+  position: absolute;
+  width: 207px;
+  left: -8px;
+  top: -73px;
+}
+
+.pinkImg {
+  position: absolute;
+  top: 30em;
+  left: -97px;
+  width: 226px;
+}
+
+.purpleImg {
+  position: absolute;
+  width: 207px;
+  left: 72em;
+  top: 28em;
 }
 
 .container {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.wrap{
-    background-color: #fff;
-    padding: 3.8rem 2.9rem;
-    border-radius: 1.25rem 1.25rem 1.25rem 0;
+.wrap {
+  background-color: #fff;
+  padding: 3.8rem 2.9rem;
+  border-radius: 1.25rem 1.25rem 1.25rem 0;
 }
-input{
-display: block;
-border: none;
-padding: 18px;
-margin: 1em -15px;
-border: 1 solid #edf2f7;
-outline: none;
-font-size: 100%;
-background-color:  #edf2f7;
-width: 25rem;
-font-family: karla, serif;
-font-size: 12px;
-font-weight: 600;
-
-
-
-
-
+input {
+  display: block;
+  border: none;
+  padding: 18px;
+  margin: 1em -15px;
+  border: 1 solid #edf2f7;
+  outline: none;
+  font-size: 100%;
+  background-color: #edf2f7;
+  width: 25rem;
+  font-family: karla, serif;
+  font-size: 12px;
+  font-weight: 600;
 }
- 
-label{
-color: #4a5568;
-margin: 0 -16px;
 
+label {
+  color: #4a5568;
+  margin: 0 -16px;
+  font-family: U8, serif;
+  font-size: 12px;
+  font-weight: 600;
 }
 
 select {
-
-display: block;
-border: none;
-padding: 18px;
-margin: 1em -15px;
-border: 1 solid #edf2f7;
-outline: none;
-font-size: 100%;
-background-color:  #edf2f7;
-width: 25rem;
+  display: block;
+  border: none;
+  padding: 18px;
+  margin: 1em -15px;
+  border: 1 solid #edf2f7;
+  outline: none;
+  font-size: 100%;
+  background-color: #edf2f7;
+  width: 25rem;
 }
 button {
-border: none;
-background-color: #0d60d8;
-padding: 18px;
-justify-content: center;
-margin: 1em -17px;
-border-radius: 0.8rem 0.6rem 0.6rem 0;
-color: #fff;
-width: 25rem;
-font-weight: 70%;
-
-
-
+  border: none;
+  background-color: rgb(8, 62, 158);
+  padding: 18px;
+  justify-content: center;
+  margin: 1em -17px;
+  border-radius: 0.8rem 0.6rem 0.6rem 0;
+  color: #fff;
+  width: 25rem;
+  font-weight: 70%;
+  font-family: U8;
+  font-size: 14px;
 }
-.logo{
-    padding: 40px;
-    margin: 10px;
-
+.logo {
+  padding: 40px;
+  margin: 10px;
 }
 
 a {
-    
-    padding: 10px;
-    margin: 9px;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    display: block;
-    font-family: "karla", sans-serif;
-font-size: 14px;
-cursor: pointer;
-
-
+  padding: 10px;
+  margin: 9px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  display: block;
+  font-family: "Karla", sans-serif;
+  font-size: 14px;
+  cursor: pointer;
 }
 
-
-a:hover { 
-    background-color: gray;
-    
+a:hover {
+  color: grey;
 }
 
-
-header{
-padding: 0 0 2em;
-text-align: center;
-
-
-
+header {
+  padding: 0 0 2em;
+  text-align: center;
 }
 
 .createaccount {
-    color: #083e9e;
-    font-weight: 700 !important;
-    font-size: 18px !important;
-    word-spacing: 2px;
-    font-family: U8 !important;
-
-
+  color: #083e9e;
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  word-spacing: 2px;
+  font-family: U8 !important;
 }
 
 .createaccounttext {
-color: #4a5568;
-font-family: "Karla", sans-serif;
-font-size: 15px;
-}
-
-b{
-    font-size: 14px;
+  color: #4a5568;
+  font-family: "Karla", sans-serif;
+  font-size: 15px;
 }
 
 footer {
-    margin: 15px;
+  margin: 25px;
+  padding: 5px;
+}
 
+.createaccounttext {
+  margin: 5px;
+  color: #4a5568;
+  font-family: Karla;
+}
+
+@media screen and (max-width: 500px) {
+  .wrap {
+    padding: 3rem 1.3rem;
+  }
+
+  button {
+    padding: 16px;
+    width: 21rem;
+    text-align: center;
+    white-space: nowrap;
+    word-spacing: 4px;
+    font-style: 17px;
+  }
+
+  input {
+    width: 21rem;
+  }
+
+  .hide {
+    visibility: hidden;
+  }
+
+  .greenImg {
+    position: relative;
+    width: 62px;
+    left: 22em;
+    z-index: -5;
+  }
+
+  select {
+    width: calc(25rem - 66px);
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .greenImg {
+    visibility: hidden;
+  }
 }
